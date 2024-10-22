@@ -1,0 +1,22 @@
+{
+  "name": "ubiquiti_e2e_automation",
+  "version": "1.0.0",
+  "description": "Repository to host e2e automation test suite for https://www.saucedemo.com/",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pallavithanikonda/ubiquiti_e2e_automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pallavithanikonda/ubiquiti_e2e_automation/issues"
+  },
+  "homepage": "https://github.com/pallavithanikonda/ubiquiti_e2e_automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.48.1",
+    "@types/node": "^22.7.8"
+  }
+}
