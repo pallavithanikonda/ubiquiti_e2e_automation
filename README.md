@@ -35,20 +35,17 @@ npx playwright test --ui
 npx playwright test --project=chromium
 #Runs the tests only on Desktop Chrome.
 
-npx playwright test example
+npx playwright test login
 #Runs the tests in a specific file.
 
 npx playwright test --debug
 #Runs the tests in debug mode.
 
-npx playwright codegen
-#Auto generate tests with Codegen.
-
-#We suggest that you begin by typing:
+#I suggest that you begin by typing:
 npx playwright test
 
 ```
-## Tests
+## Features
 - **Login Flow:** Verifies standard and locked-out users.
 - **Purchase Flow:** Sort products, add to cart, and complete a purchase.
 - **UI Tests:** Verifies header and footer.
